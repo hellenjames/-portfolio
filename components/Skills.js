@@ -1,7 +1,7 @@
 function Skills() {
   return (
     <section className="container mx-auto">
-      <h2 className="text-[#03A9F5] text-3xl flex justify-center flex-1">
+      <h2 className="text-[#03A9F5] text-3xl flex justify-center flex-1 mt-8">
         SKILLs
       </h2>
       <div className="flex justify-center items-center gap-[6em]">

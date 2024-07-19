@@ -2,7 +2,7 @@ function About() {
   return (
     <section>
       <div className="container mx-auto">
-        <h2 className="text-[#03A9F5] text-3xl flex justify-center flex-1">
+        <h2 className="text-[#03A9F5] text-3xl flex justify-center flex-1 mt-8">
           ABOUT ME
         </h2>
         <p className="w-[90%] flex justify-center text-center mt-4">

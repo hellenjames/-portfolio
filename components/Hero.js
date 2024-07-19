@@ -1,18 +1,19 @@
-
-import Image from "next/image"; 
+import Image from "next/image";
+import img from "../images/ave-removebg-preview.png";
+import Img from "../images/istockphoto-1288814782-612x612-removebg-preview.png";
 function Hero() {
   return (
     <section>
       <div className="container mx-auto ">
         <div className="flex justify-center items-center flex-col">
-        <Image 
-                    src="/next/images/images.png"
-                    height="50"
-                    width="50"
-                />           <div>
+          <Image src={img} alt="An avatar image to represent Hellen James" />
+          <div>
             <h2 className="text-3xl text-black font-bold">WElCOME.</h2>
-          
-            <p className=" flex-1  text-2xl">I'm Hellen James</p>
+            <div className="flex  justify-center items-center ">
+              <Image src={Img} width={70} alt="A wahing hand emoji"/>
+
+              <p className="text-2xl ">I'm Hellen James</p>
+            </div>
             <p className="text-[#03A9F5] text-2xl font-semibold my-4">
               A Full Stack Developer
             </p>
