@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Custom styles */
+
+.message-box{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
