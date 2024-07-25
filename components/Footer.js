@@ -5,7 +5,7 @@ import Im from "../images/linkedin.png";
 
 function Footer() {
   return (
-    <section className="bg-gray-300 mt-7">
+    <section className="bg-gray-400 mt-7">
       <div className="container mx-auto flex justify-around">
         <div>
           <h2 className="text-[#03A9F5] text-2xl  font-bold ">JH</h2>
@@ -15,7 +15,7 @@ function Footer() {
           <h2 className="text-2xl text-[#03A9F5] m-2 font-bold ">
             Quick Links
           </h2>
-          <ul className="cursor-pointer">
+          <ul className="cursor-pointer ">
             <li>Home</li>
             <li>About Me</li>
             <li>Skills</li>

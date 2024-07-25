@@ -2,6 +2,8 @@ import Image from "next/image";
 // import img from "../images/ave-removebg-preview.png";
 import img from "../images/Hellen.jpg";
 // import { HashLink as Link } from "react-router-hash-link";
+import Link from 'next/link'
+
 
 import Img from "../images/istockphoto-1288814782-612x612-removebg-preview.png";
 function Hero() {
@@ -11,7 +13,7 @@ function Hero() {
         <div className="flex justify-center items-center flex-col">
           <Image className="w-[10%] h-[30%] rounded-full" src={img} alt="An avatar image to represent Hellen James" />
           
-          <div>
+          <div className="flex justify-center items-center flex-col">
             <h2 className="text-3xl text-black font-bold">WElCOME.</h2>
             <div className="flex  justify-center items-center ">
               <Image src={Img} width={70} alt="A wahing hand emoji"/>
@@ -26,10 +28,10 @@ function Hero() {
             <button className="border rounded-full py-4 px-[4em] bg-[#03A9F5] text-[white] hover:bg-[black]">
               Download Resume
             </button>
-          <button className="border border-[#03A9F5] rounded-full py-4 px-[4em]  text-[#03A9F5] font-bold hover:bg-[black] hover:border-white">
+          <Link href="#projects"> <button className="border border-[#03A9F5] rounded-full py-4 px-[4em]  text-[#03A9F5] font-bold hover:bg-[black] hover:border-white">
               My Projects
             </button>
-             
+            </Link>   
           </div>
         </div>
       </div>

@@ -2,6 +2,8 @@
 import Image from "next/image";
 import ThemeSwitch from "./ThemeSwitcher";
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
+
 
 // import img from "../images/icon-moon.svg";
 // import Img from "../images/icon-sun.svg";
@@ -11,7 +13,7 @@ import { MdSunny } from "react-icons/md";
 
 function Nav() {
   return (
-    <nav className="sticky right-0 left-0 h-[10vh]  container mx-auto">
+    <nav className="sticky  top-0 right-0 left-0 h-[10vh]  container mx-auto bg-white mb-4">
       <div className="flex justify-between cursor-pointer">
         <h1 className="text-[#03A9F5] text-3xl  text-center font-bold ">JH</h1>
         
