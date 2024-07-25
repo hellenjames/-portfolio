@@ -32,8 +32,8 @@ function Contact() {
       formErrors.email = "Email is invalid.";
     }
 
-    if (number === "") {
-      formErrors.number = "Number is required.";
+    if (phonenumber === "") {
+      formErrors.phonenumber = "Number is required.";
     }
 
     if (message === "") {
@@ -133,7 +133,7 @@ function Contact() {
               <input
                 className=" w-[80%] bg-white  text-[#03A9F5]  rounded-full my-5 p-4  outline-none "
                 // style={styles.input}
-                name="user_phone number"
+                name="user_phonenumber"
                 type="number"
                 placeholder="Enter Your Phone Number"
                 value={phonenumber}
