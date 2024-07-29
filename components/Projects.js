@@ -7,7 +7,7 @@ import Im from "../images/design.png";
 
 function Projects() {
   return (
-    <section id="projects scroll-smooth">
+    <section id="projects" className="">
       <div className="container mx-auto">
         <h2 className="text-[#03A9F5] text-3xl flex justify-center flex-1 my-8">
           PROJECTS
